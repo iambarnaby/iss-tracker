@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.map-container {
+  width: 1000px;
+
+  position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.iss-icon {
+  width: 100px;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lock-on-button {
+  position: absolute;
+  z-index: 9999;
+  width: auto;
+  height: auto;
+  font-size: 1.5rem;
+  top: 90vh;
+  left: 5vw;
+  background-color: rgb(80, 80, 80);
+  color: #e2b030;
+  border: none;
+  padding: 10px;
+}
+.lock-on-button:hover {
+  background-color: rgb(56, 56, 56);
+  cursor: pointer;
+  border: solid 2px rgb(80, 80, 80);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.map-container {
+  z-index: 1;
+  width: 100vw;
 }
